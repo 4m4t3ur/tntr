@@ -75,10 +75,13 @@ body {
 
 #header { margin-top: 9px; }
 
-#language { float: right; color: #666; font-family: NexaLight, Arial, Helvetica, sans-serif; }
+#language { float: right; color: #666; font-family: NexaLight, Arial, Helvetica, sans-serif; font-size: 10pt; }
 
 #language>a { color: #666; text-decoration: none; }
 
+.boldFont {
+	font-family: NexaBold, Arial, Helvetica, sans-serif;
+}
 	
 #page {	
 	max-width: 650px;
@@ -87,6 +90,11 @@ body {
 	overflow: hidden;
 }
 
+.fb-like {
+	float: right;
+	margin-right: 50px;
+	margin-top: -6px;
+}
 
 
 /* =Repeatable patterns
