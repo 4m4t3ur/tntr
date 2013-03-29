@@ -22,6 +22,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
+<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
@@ -48,18 +49,11 @@
         <div id="language">
 					<a href="http://tantrafestival.ee/et/">EST</a> | <a href="http://tantrafestival.ee/">ENG</a>
         </div><!-- .language -->
-        <div class="fb-like" data-href="http://tantrafestival.ee/" data-send="false" data-width="150" data-show-faces="false"></div>
-    
+        <div class="fb-like" data-href="http://tantrafestival.ee/" data-send="false" data-width="150" data-layout="button_count"  data-show-faces="false"></div>
         <div id="keke">
-         
-			<img src="<?php echo get_template_directory_uri(); ?>/img/Festival_logo.png" style="margin-top: 0;">
-         
+          <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/Festival_logo.png">
         </div><!-- .keke -->
-
     </div><!-- #header -->
-
-
-
 
 
 		<img src="http://tantrafestival.ee/wp-content/uploads/2013/03/line_menu.png" style="margin-top: 20px;">
