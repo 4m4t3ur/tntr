@@ -44,25 +44,6 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 
-
-
-
-
-
-<!--
-
-<table border="1" width="100%">
-  <tr>
-    <th width="60%"></th>
-    <th width="10%">
-<a href="javascript:var%20d=document,f='http://www.facebook.com/share',l=d.location,e=encodeURIComponent,p='.php?src=bm&v=4&i=1216453911&u='+e('http://tantrafestival.ee/')+'&t='+e('International Tantra Festival');1;try{if%20(!/^(.*\.)?facebook. ^.]*$/.test(l.host))throw(0);share_internal_bookmarklet(p)}catch(z)%20{a=function()%20{if%20(!window.open(f+'r'+p,'sharer','toolbar=0,status=0,resizable=1,width=626,height=436'))l.href=f+p};if%20(/Firefox/.test(navigator .userAgent))setTimeout(a,0);else{a()}}void(0)">
-<img src="http://tantrafestival.ee/wp-content/uploads/2013/03/like.png" border="0" width="52" height="21"></a>
-    </th>
-    <th width="30%"> <a href="http://tantrafestival.ee/et/">EST</a> | <a href="http://tantrafestival.ee/">ENG</a></th>
-  </tr>
-</table>
-
--->
     <div id="header">
         <div id="language">
 					<a href="http://tantrafestival.ee/et/">EST</a> | <a href="http://tantrafestival.ee/">ENG</a>
