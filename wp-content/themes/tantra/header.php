@@ -41,7 +41,7 @@
 
 
 
-
+<!--
 
 <table border="1" width="100%">
   <tr>
@@ -54,15 +54,15 @@
   </tr>
 </table>
 
-
+-->
     <div id="header">
         <div id="language">
-
+<a href="http://tantrafestival.ee/et/">EST</a> | <a href="http://tantrafestival.ee/">ENG</a>
         </div><!-- .language -->
     
         <div id="keke">
          
-			<img src="http://tantrafestival.ee/wp-content/uploads/2013/03/Festival_logo.png" style="margin-top: -10px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/Festival_logo.png" style="margin-top: 0;">
          
         </div><!-- .keke -->
 
