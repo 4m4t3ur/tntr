@@ -94,6 +94,9 @@ body {
 	float: right;
 	margin-right: 50px;
 	margin-top: 0px;
+	height: 21px;
+	overflow: hidden;
+	width: 150px !important;
 }
 
 #logo {
