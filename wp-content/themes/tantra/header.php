@@ -60,11 +60,11 @@
 
     <div id="header">
         <div id="language">
-					<a href="http://tantrafestival.ee/et/">EST</a> | <a href="http://tantrafestival.ee/">ENG</a>
+					<a href="<?php bloginfo('siteurl'); ?>/et/">EST</a> | <a href="<?php bloginfo('siteurl'); ?>">ENG</a>
         </div><!-- .language -->
         <div class="fb-like" data-href="http://www.facebook.com/pages/Tantra-Festival-Estonia/132369760261898" data-send="false" data-width="150" data-layout="button_count"  data-show-faces="false"></div>
         <div id="keke">
-          <img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/Festival_logo.png">
+          <a href="<?php bloginfo('siteurl'); ?>" style="text-decoration: none; background-color: none; color: none; border: none;"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/img/Festival_logo.png" style="text-decoration: none; background-color: none; color: none; border: none;"></a>
         </div><!-- .keke -->
     </div><!-- #header -->
 

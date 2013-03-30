@@ -61,7 +61,7 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 
 body {
 	background-image: url(img/bg1.jpg);	
-	font-family: NexaBold, Arial, Helvetica, sans-serif;
+	font-family: NexaLight, Arial, Helvetica, sans-serif;
 	font-size: 11pt;
 /*	text-rendering: optimizeLegibility; */
 	color: #000;
@@ -70,7 +70,11 @@ body {
 /*	letter-spacing: -1px; */
 	background-position: top center;
 	background-color: #fdd28f;
-	
+}
+
+strong {
+	font-family: NexaBold, Arial, Helvetica, sans-serif;
+	font-weight: bold;	
 }
 
 #header { margin-top: 9px; }
@@ -108,12 +112,25 @@ div.nav-menu>ul>li>a {
 	text-decoration: none;
 	color: #000;
 	line-height: 20px;
-
 }
 
 div.nav-menu>ul>li {
 	display: inline;
 	margin-right: 15px;
+}
+
+/*
+.entry-content>p>span>strong {
+	font-size: 14pt;
+}
+*/
+
+h1 {
+	color: #b32025;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: NexaBold, Arial, Helvetica, sans-serif;
+	margin-bottom: 40px;
 }
 
 
@@ -626,12 +643,6 @@ footer[role="contentinfo"] a:hover {
 .entry-header img.wp-post-image {
 	margin-bottom: 24px;
 	margin-bottom: 1.714285714rem;
-}
-.entry-header .entry-title {
-	font-size: 20px;
-	font-size: 1.428571429rem;
-	line-height: 1.2;
-	font-weight: normal;
 }
 .entry-header .entry-title a {
 	text-decoration: none;
@@ -1473,11 +1484,6 @@ img#wpstats {
 		font-weight: bold;
 	} */
 	.menu-toggle {
-		display: none;
-	}
-	.entry-header .entry-title {
-		font-size: 22px;
-		font-size: 1.571428571rem;
 		display: none;
 	}
 	#respond form input[type="text"] {
