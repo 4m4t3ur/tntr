@@ -131,13 +131,15 @@ h1 {
 	font-weight: bold;
 	font-family: NexaBold, Arial, Helvetica, sans-serif;
 	margin-bottom: 40px;
+	clear: none;
 }
 
 h2 {
-	color: #b32025;
-	font-size: 14pt;
+	color: #000;
+	font-size: 12pt;
 	font-weight: bold;
 	font-family: NexaBold, Arial, Helvetica, sans-serif;
+	clear: none;
 }
 
 
