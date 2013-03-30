@@ -118,7 +118,8 @@ div.nav-menu>ul>li>a {
 	font-weight: bold;
 }
 
-div.nav-menu>ul>li.page_item>a {
+div.nav-menu>ul>li.page_item>a,
+div.nav-menu>ul>li>a {
 	color: #000;
 }
 
