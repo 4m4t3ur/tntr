@@ -62,7 +62,7 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 body {
 	background-image: url(img/bg1.jpg);	
 	font-family: NexaLight, Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-size: 10pt;
 /*	text-rendering: optimizeLegibility; */
 	color: #000;
 	line-height: 1.2;
@@ -107,12 +107,29 @@ strong {
 	margin-top: 0;
 }
 
-div.nav-menu>ul>li>a {
-	font-family: NexaLight, Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	color: #000;
-	line-height: 20px;
+li.current_page_item>a {
+	color: #b32025;
 }
+
+div.nav-menu>ul>li>a {
+	font-family: NexaBold, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+div.nav-menu>ul>li.page_item>a {
+	color: #000;
+}
+
+div.nav-menu>ul>li.current_page_item>a {
+	color: #b32025;
+}
+
+entry-content>ul {
+	padding-top: 0;
+	padding-bottom: 0;
+	}
 
 div.nav-menu>ul>li {
 	display: inline;
@@ -142,6 +159,17 @@ h2 {
 	clear: none;
 }
 
+ul>li {
+	line-height: 1.2;
+	}
+
+.entry-content {
+	text-align: justify;
+}
+
+.nav-menu>ul {
+	margin: 10px 0 10px 10px;
+}
 
 
 /* =Repeatable patterns
@@ -454,6 +482,7 @@ a {
 	outline: none;
 	color: #b32025;
 }
+
 a:hover {
 	color: #0f3647;
 }
@@ -728,17 +757,14 @@ article.sticky .featured-post {
 .entry-summary p,
 .comment-content p,
 .mu_register p {
-	margin: 0 0 24px;
-	margin: 0 0 1.714285714rem;
+	margin: 0 0 15px;
 }
 .entry-content ol,
 .comment-content ol,
 .entry-content ul,
 .comment-content ul,
 .mu_register ul {
-	margin: 0 0 24px;
-	margin: 0 0 1.714285714rem;
-	line-height: 1.714285714;
+	margin: 0 0 15px;
 }
 .entry-content ul ul,
 .comment-content ul ul,
@@ -823,7 +849,7 @@ img.alignleft {
 	margin: 0.857142857rem 1.714285714rem 0.857142857rem 0;
 }
 img.alignright {
-	margin: -40px 0 12px 24px;
+	margin: -40px 0 12px 0px;
 }
 img.aligncenter {
 	margin-top: 12px;
