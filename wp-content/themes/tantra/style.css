@@ -137,12 +137,6 @@ div.nav-menu>ul>li {
 	margin-right: 15px;
 }
 
-/*
-.entry-content>p>span>strong {
-	font-size: 14pt;
-}
-*/
-
 h1 {
 	color: #b32025;
 	font-size: 14pt;
@@ -170,6 +164,61 @@ ul>li {
 
 .nav-menu>ul {
 	margin: 10px 0 10px 10px;
+}
+
+.avatar {
+	width: 175px;
+	vertical-align: top;
+}
+
+td>h1 {
+	margin-bottom: 0;
+}
+
+.teacherDesc {
+	padding-bottom: 10px;
+}
+
+/* The freaquing FORM */
+
+.registrationSpacer {
+	width: 430px;
+	height: 20px;
+	background-color: #f9ab2f;
+	color: #b52f23;
+	font-family: NexaBold, Arial, Helvetica, sans-serif;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-left: 20px;
+	padding-top: 7px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.wpcf7 input[type=text] {
+	width: 285px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #f3e2c9;
+}
+
+.wpcf7{
+	font-family: NexaBold, Arial, Helvetica, sans-serif;
+}
+
+.wpcf7-submit {
+	background-color: #f9ab2f;
+	color: #000;
+	font-family: NexaBold, Arial, Helvetica, sans-serif;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 10px 20px 10px 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 15px;
 }
 
 
@@ -231,7 +280,8 @@ input[type="color"] {
 	padding: 0;
 }
 
-/* Buttons */
+/* Buttons */ 
+/*
 .menu-toggle,
 input[type="submit"],
 input[type="button"],
@@ -255,7 +305,8 @@ li.bypostauthor cite span {
 	border: 1px solid #d2d2d2;
 	border-radius: 3px;
 	box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
-}
+} 
+*/
 .menu-toggle,
 button,
 input[type="submit"],
@@ -881,6 +932,7 @@ img.aligncenter {
 	margin-bottom: 24px;
 	margin-bottom: 1.714285714rem;
 }
+/*
 .entry-content table,
 .comment-content table {
 	border-bottom: none;
@@ -900,11 +952,15 @@ img.aligncenter {
 	margin: 24px 0;
 	margin: 1.714285714rem 0;
 }
+
+
 .entry-content td,
 .comment-content td {
 	border-top: 1px solid #b32025;
 	padding: 6px 10px 6px 0;
 }
+
+*/
 .site-content article {
 	border-bottom: none;
 	margin-bottom: 72px;
